@@ -15,6 +15,8 @@ Using the slicing concept rotate the list
 ### Step 5: finally print the result
 ## Program:
 ```
+Developed by : KAMALESH SV
+Register No : 22001133
 def circulate():
     a=eval(input())
     n=int(input())
