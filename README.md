@@ -24,6 +24,9 @@ def circulate():
     n=int(input())
     a=a[n:]+a[:n]
     print("After circulating the values are:",a)
+
+
+
 ```
 
 ## Output:
