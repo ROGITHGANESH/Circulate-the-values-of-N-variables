@@ -1,3 +1,7 @@
+# EXP 2.
+
+## Write a python program to Circulate the n variables using function concept
+
 # Circulate-the-values-of-N-variables
 ## Aim:
 To write a python program to circulate the n variables using function concept
@@ -6,32 +10,31 @@ PC
 Anaconda - Python 3.7
 ## Algorithm: 
 ### Step 1: 
-first step is to define the function
+Get the values from the user
 ### Step 2: 
-get a,n inputs from the user
+Assign the value of variable to a temporary variable
 ### Step 3: 
-define the formula Get the value from the user for the number of rotation
+Get the value from the user for the number of rotation
 ### Step 4: 
-print the result Using the slicing concept rotate the list
+Using the slicing concept rotate the list
+
 ### Step 5: 
-finally print the result
+Print both the values it would be interchanged
+### Step 6: 
+End the program
 ## Program:
+
 ```
-Developed by : KAMALESH SV
-Register No : 22001133
 def circulate():
-    a=eval(input())
-    n=int(input())
-    a=a[n:]+a[:n]
-    print("After circulating the values are:",a)
-
-
-
+    b=a[n:]+a[:n]
+    print("After circulating the values are:",b)
+a=eval(input())
+n=int(input())
 ```
 
 ## Output:
-
-![OUTPUT](./OUTPUT.png)
+![image](https://github.com/Kavin1311/PYTHON-PROGRAMMING-19AI301/assets/145695724/ab049778-8b99-47d4-9f12-2900acd249d2)
 
 ## Result:
-By this program we able to circulate the values of n - variables
+The output for circulate the values of n variables is successfull.
+
